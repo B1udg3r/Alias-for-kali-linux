@@ -1,7 +1,5 @@
 # Alias-for-kali-linux
 
-The alias's will provide ease for doing stuff in  kali linux suck as: starting a vpn via a alias; python webserver; an alias that pulls your tun0 ip address.
-
 
 `alias vpnip='ifconfig tun0 | grep -i netmask | cut -d " " -f10'
 alias killvpn='killall -9 openvpn'
